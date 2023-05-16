@@ -10,7 +10,7 @@ function App() {
 
   const tasks = [
     { id: 1, content: "przejsc na react", done: true },
-    { id: 2, content: "zrobic lache", done: true },
+    { id: 2, content: "stworzyc repozytorium", done: true },
   ];
 
   const hideDoneTasks = false;
