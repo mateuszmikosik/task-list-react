@@ -1,0 +1,35 @@
+.section {
+  margin-bottom: 10px;
+  background-color: white;
+  border: 2px solid rgb(221, 221, 221);
+}
+
+.section__header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-bottom: 2px solid rgb(221, 221, 221);;
+}
+
+.section__title {
+  margin: 0;
+  padding: 20px;
+}
+
+.section__buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.section__button {
+  background-color: white;
+  border: none;
+  color: teal;
+  cursor: pointer;
+  margin: 20px;
+}
+
+
+.section__content {
+  padding: 20px;
+}
